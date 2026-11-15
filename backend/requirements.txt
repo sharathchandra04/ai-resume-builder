@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+litellm
+reportlab
+python-multipart
+pydantic

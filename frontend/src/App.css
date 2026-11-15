@@ -1,0 +1,29 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f4f4f4; color: #111; }
+.topbar { display: flex; align-items: center; gap: 20px; background: #111; color: #fff; padding: 10px 20px; flex-wrap: wrap; }
+.topbar h1 { font-size: 20px; margin: 0; }
+.top-picker { display: flex; align-items: center; gap: 8px; margin: 0; }
+.top-picker select { width: auto; min-width: 160px; margin-top: 0; }
+.tabs { display: flex; gap: 8px; padding: 10px 20px; background: #fff; border-bottom: 1px solid #ddd; }
+.tabs button, button { padding: 8px 14px; cursor: pointer; border: 1px solid #ccc; background: #fff; border-radius: 4px; }
+button.active { background: #111; color: #fff; }
+button.danger { border-color: #c00; color: #c00; }
+main { padding: 20px; }
+.muted { color: #666; font-size: 13px; }
+.error { background: #fde8e8; color: #900; padding: 10px 20px; margin: 0; }
+label { display: block; margin: 10px 0; font-size: 14px; }
+input, select, textarea { width: 100%; padding: 8px; margin-top: 4px; box-sizing: border-box; font: inherit; }
+input[type="checkbox"] { width: auto; }
+input[type="color"] { width: 60px; height: 36px; padding: 2px; }
+.row { display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap; }
+.builder { display: flex; gap: 20px; align-items: flex-start; }
+.panel { width: 300px; flex-shrink: 0; background: #fff; padding: 16px; border: 1px solid #ddd; border-radius: 6px; }
+.panel h3 { margin-top: 0; }
+.board-area { flex: 1; display: flex; justify-content: center; }
+.a4 { position: relative; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.25); }
+.section-box { position: absolute; border: 1px dashed #999; overflow: hidden; box-sizing: border-box; padding: 2px; cursor: pointer; }
+.section-box.selected { border: 2px solid #0066ff; }
+.section-box.filled { border: none; cursor: default; }
+.point-marker { position: absolute; width: 10px; height: 10px; background: #0066ff; border-radius: 50%; pointer-events: none; }
+.list-item { padding: 8px; border: 1px solid #ddd; border-radius: 4px; margin: 6px 0; background: #fff; cursor: pointer; display: flex; gap: 8px; align-items: center; }
+.simple-view { max-width: 760px; background: #fff; padding: 20px; border: 1px solid #ddd; border-radius: 6px; }
+.profile-preview { white-space: pre-wrap; background: #f8f8f8; padding: 12px; border: 1px solid #ddd; }
